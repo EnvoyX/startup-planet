@@ -1,0 +1,24 @@
+{
+  "name": "startup_planet",
+  "version": "1.0.0",
+  "description": "a dataset of world's most promising startups",
+  "homepage": "https://github.com/EnvoyX/startup-planet#readme",
+  "bugs": {
+    "url": "https://github.com/EnvoyX/startup-planet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnvoyX/startup-planet.git"
+  },
+  "license": "ISC",
+  "author": "Envoy",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
